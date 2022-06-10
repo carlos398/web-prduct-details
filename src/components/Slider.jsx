@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../css/Slider.css';
 
 const Slider = (props) => {
 
@@ -25,7 +26,6 @@ const Slider = (props) => {
     return (
         <div className="SliderContainer">
             <img src={require(`../images/${selectedImage}`)} alt={selectedImage} />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ea.</p>
             <div className='btnContainer'>
                 <button onClick={prevImage}>{"<"}</button>
                 <button onClick={nextImage}>{">"}</button>

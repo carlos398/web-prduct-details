@@ -1,0 +1,62 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: 2px solid rgb(166, 69, 231);
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px rgb(252, 250, 250);
+    background-color: rgb(90, 16, 160);
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.Card .CardTitle h2{
+    font-size: 2.1rem;
+    color: rgb(252, 250, 250);
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.Card .CardImg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Card .CardImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.Card .CardLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(78, 13, 139);
+}
+
+.Card .CardLinks a{
+    color: rgb(252, 250, 250);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Card .CardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.Card .CardText p{
+    text-align: center;
+}
